@@ -1,1 +1,5 @@
-# atp-eks-landing
+# EKS 강의 안내
+
+### 실습 링크
+- 온라인 교재 보기와 실습 페이지는 다음과 같습니다.
+- https://bit.ly/eks1119
