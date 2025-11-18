@@ -13,7 +13,7 @@
  
 * 강의 종료 후 교재 보기 안내
   - 교재는 교육 종료후 1년동안 보실 수 있습니다.
-  - https://online.vitalsource.com 에 실습을 위해 등록했던 이메잃주소를 사용하여 회원가입합니다.
+  - https://online.vitalsource.com 에 실습을 위해 등록했던 이메일 주소를 사용하여 회원가입합니다.
   - 로그인 후 Search 화면에서 "Elastic Kubernetes Service" 키워드로 검색한 후 다음과 같은 제목의 컨텐츠를 찾습니다.
     - Running Containers on Amazon Elastic Kubernetes Service (Amazon EKS) 2.1.15 (KO): Student Guide  
   - Open Book을 눌러서 교재를 보시면 됩니다.
