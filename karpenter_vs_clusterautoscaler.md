@@ -58,7 +58,7 @@
   * Karpenter는 Pending 상태의 Pod를 감지하고 Pod의 상태과 갯수를 파악하고 생성할 Worker Node의 적정 용량을 계산함.
   * 계산된 적정 용량을 수용할 수 있는 Worker Node의 인스턴스 타입을 결정하고 Worker Node를 생성함.
   * Scheduler에 의해 새로 생성된 Worker node에 Pending 상태인 Pod가 배포된다.
-  * 
+
 ---
 
 ### 👍 장점
