@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-example1
+  namespace: default
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: a7704d4a1cd2e4367b3217af209658b1-1315181876.ap-northeast-2.elb.amazonaws.com
+    http:
+      paths:
+      - path: /path1
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-nodeapp1
+            port:
+              number: 8080
+      - path: /path2
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-nodeapp2
+            port: 
+              number: 8080
